@@ -1,3 +1,43 @@
+# ============================================================================
+# EVENT MANAGEMENT & TICKETING PLATFORM
+# Git Ignore Configuration (.gitignore)
+# ============================================================================
+
+# Java Bytecode and Build Artifacts
 bin/
 *.class
+*.jar
+*.war
+*.ear
+
+# IDE and Editor Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Operating System Files
 .DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs, Dumps, and Crash Reports
+*.log
+*.err
+*.pid
+hs_err_pid*
+
+# Temporary and Backup Files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Secrets, Environment Variables and Local Configuration
+.env
+*.local
+credentials.json
+local.properties
