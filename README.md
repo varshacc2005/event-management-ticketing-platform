@@ -35,12 +35,26 @@ event-management-ticketing-platform/
 │   ├── day1/day1.md                 # Day 1: Setup & GitHub repo initialization
 │   ├── day2/day2.md                 # Day 2: Initial single-class domain modeling
 │   ├── day3/day3.md                 # Day 3: Class hierarchy, interfaces & custom exceptions
-│   └── day4/day4.md                 # Day 4: Collections, waitlist engine & console application
-└── Project/                         # Initial Day 1 & Day 2 basic scratch files
+│   ├── day4/day4.md                 # Day 4: Collections, waitlist engine & console application
+│   ├── day5/day5.md                 # Day 5: Auth module architecture & user models
+│   ├── day6/day6.md                 # Day 6: Auth service, collections & console app
+│   ├── day7/day7.md                 # Day 7: Testing, debugging & documentation
+│   ├── day8/day8.md                 # Day 8: Database design, 3NF schema & seed data
+│   ├── day9/day9.md                 # Day 9: Business queries, joins, aggregations & indexes
+│   └── day10/day10.md               # Day 10: Multi-table transactions, ACID, AI validation & viva
+└── Project/                         # Core Project Files
+    ├── database/                    # [ASSESSMENT 2] Relational Database (MySQL 8.0)
+    │   ├── schema.sql               # 3NF Schema: 9 tables, constraints, indexes & view
+    │   ├── seed.sql                 # Sample data (20+ rows per table)
+    │   ├── queries.sql              # 10 business queries, CRUD, joins & EXPLAIN plans
+    │   ├── README.md                # Comprehensive database guide
+    │   ├── SQL_VIVA.md              # ACID, isolation levels, transactions & viva Q&As
+    │   └── AI_SQL_VALIDATION.md     # Critical evaluation of AI-generated SQL error
+    └── src/                         # Modular Java Package Architecture (com.eventplatform.*)
 ```
 
 > [!NOTE]
-> `src/` is your **actual primary project directory** containing the production-grade modular package structure (`com.eventplatform.*`). The `Project/` folder contains the early Day 1 & Day 2 scratch files.
+> `Project/database/` contains the complete **Assessment 2 SQL Checkpoint** implementation, while `Project/src/` contains the Core Java console application.
 
 ---
 
